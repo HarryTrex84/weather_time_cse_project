@@ -11,31 +11,31 @@ The application uses an external weather service (via an API) to fetch real-time
 
 ## ✨ Features
 
-Real-time Weather Data: Fetches up-to-date weather information (temperature, condition).
+* Real-time Weather Data: Fetches up-to-date weather information (temperature, condition).
+ 
+* Local Time Display: Shows the local date and time for the queried city.
 
-Local Time Display: Shows the local date and time for the queried city.
+* Simple CLI Interface: Easy-to-use command-line input for city names.
 
-Simple CLI Interface: Easy-to-use command-line input for city names.
+* Robust Error Handling: Catches and manages exceptions for:
 
-Robust Error Handling: Catches and manages exceptions for:
+* Network connection issues.
 
-Network connection issues.
+* Invalid city names/data not found.
 
-Invalid city names/data not found.
-
-Missing required libraries (requests).
+* Missing required libraries (requests).
 
 
 ## 🛠️ Technologies/Tools Used
 
 
-Language: Python 3.x
+* Language: Python 3.x
 
-Core Library: requests (for making HTTP requests to the weather API)
+* Core Library: requests (for making HTTP requests to the weather API)
 
-Development Environment: Visual Studio Code
+* Development Environment: Visual Studio Code
 
-Weather Data Source: An external API (implied by the URL structure: http://wtr.in/io/?city={city_name}).
+* Weather Data Source: An external API (implied by the URL structure: http://wtr.in/io/?city={city_name}).
 
 
 ## ⚙️ Steps to Install & Run the Project
